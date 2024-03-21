@@ -16,21 +16,21 @@ limitations under the License.
 package cmd
 
 import (
-	"github.com/hengeek/hengeekctl/api/ex"
+	"github.com/hengeek/hengeekctl/api/check"
 	"github.com/spf13/cobra"
 )
 
 // exCmd represents the jenkins command
-var exCmd = &cobra.Command{
-	Use:   "ex",
-	Short: `这是一个示例,你可以参考帮助信息使用,见: https://github.com/hengeek/hengeekctl/blob/main/README.md`,
+var checkCmd = &cobra.Command{
+	Use:   "check",
+	Short: `与腾讯云账单费用的一些交互`,
 }
 
 func init() {
-	rootCmd.AddCommand(exCmd)
+	rootCmd.AddCommand(checkCmd)
 	// 获取配置文件
-	exCmd.AddCommand(ex.GetConfigCmd)
-	cset := ex.GetConfigCmd.Flags()
+	checkCmd.AddCommand(check.GetConfigCmd)
+	cset := check.GetConfigCmd.Flags()
 	cset.StringP("word", "w", "你好，这是测试", "测试参数")
-	_ = ex.GetConfigCmd.MarkFlagRequired("word")
+	_ = check.GetConfigCmd.MarkFlagRequired("word")
 }
