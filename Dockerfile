@@ -5,7 +5,7 @@ ENV GOPROXY      https://goproxy.io
 RUN mkdir /app
 ADD . /app/
 WORKDIR /app
-RUN go build -o eryajfctl .
+RUN go build -o hengeekctl .
 
 FROM alpine:3.16
 
@@ -20,4 +20,4 @@ RUN mkdir /app && apk upgrade \
 
 WORKDIR /app
 COPY --from=builder /app/ .
-RUN chmod +x eryajfctl && cp config.example.yml config.yml
+RUN chmod +x hengeekctl && cp config.example.yml config.yml

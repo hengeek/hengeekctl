@@ -3,7 +3,7 @@ package ex
 import (
 	"fmt"
 
-	"github.com/eryajf/eryajfctl/public"
+	"github.com/hengeek/hengeekctl/public"
 	"github.com/spf13/cobra"
 )
 

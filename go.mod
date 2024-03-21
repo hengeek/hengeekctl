@@ -1,4 +1,4 @@
-module github.com/eryajf/eryajfctl
+module github.com/hengeek/hengeekctl
 
 go 1.18
 

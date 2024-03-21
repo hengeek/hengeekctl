@@ -1,11 +1,11 @@
 /*
-Copyright © 2021 eryajf
+Copyright © 2021 hengeek
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+	http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
@@ -23,8 +23,8 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "eryajfctl",
-	Short: "eryajf goscript",
+	Use:   "hengeekctl",
+	Short: "hengeek goscript",
 	Long:  `利用cobra制作运维日常工具箱的框架。`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:

@@ -9,7 +9,7 @@
 .token
 
 logs
-eryajfctl
+hengeekctl
 config.yml
 
 # Test binary, built with `go test -c`
