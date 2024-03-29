@@ -21,3 +21,8 @@ config.yml
 # Dependency directories (remove the comment below to include it)
 # vendor/
 tmp
+
+
+# Visual Studio temporary files
+etc/unit_test.env
+etc/*.env

@@ -29,8 +29,16 @@ var checkCmd = &cobra.Command{
 func init() {
 	rootCmd.AddCommand(checkCmd)
 	// 获取配置文件
-	checkCmd.AddCommand(check.GetConfigCmd)
-	cset := check.GetConfigCmd.Flags()
-	cset.StringP("word", "w", "你好，这是测试", "测试参数")
-	_ = check.GetConfigCmd.MarkFlagRequired("word")
+	checkCmd.AddCommand(check.GetProjectLabelCmd)
+	cset := check.GetProjectLabelCmd.Flags()
+	cset.StringP("list", "l", "", "项目费用的标签")
+
+
+	checkCmd.AddCommand(check.GetProjectcheckCmd) 
+	bset := check.GetProjectcheckCmd.Flags()
+	bset.StringP("region", "r", "ap-guangzhou", "传入所在的区域，默认为广州")
+
 }
+
+
+

@@ -4,6 +4,8 @@ go 1.18
 
 require (
 	github.com/spf13/cobra v1.2.1
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/billing v1.0.883
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.883
 	gopkg.in/yaml.v3 v3.0.1
 )
 

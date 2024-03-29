@@ -218,6 +218,10 @@ github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5
 github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/subosito/gotenv v1.2.0/go.mod h1:N0PQaV/YGNqwC0u51sEeR/aUtSLEXKX9iv69rRypqCw=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/billing v1.0.883 h1:jGFs82jNR4nL6RUgIeHnzj0ry5AlfQGGaWeXJB6twsA=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/billing v1.0.883/go.mod h1:m5KRysn42LvNOU+THae2XhEls18RhPu/XDsRu4iAKoA=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.883 h1:v3TG7sKE5rLFKmZnejv/NQ3tn+vBxIFzmea335V4ZuU=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.883/go.mod h1:r5r4xbfxSaeR04b166HGsBa/R4U3SueirEUpXGuw+Q0=
 github.com/yuin/goldmark v1.1.25/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.1.32/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
